@@ -1,0 +1,157 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO41tQFNE9hnuZI3NFCTL3j",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bsy3/ABCD-A/blob/20250321/20250327\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tRdA9EZ4TfuE",
+        "outputId": "0cd01017-4959-4fcb-8c47-5ff6fc932a87"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "총 평가금액: 500000 원\n"
+          ]
+        }
+      ],
+      "source": [
+        "삼성전자 = 50000\n",
+        "\n",
+        "총평가금액 = 삼성전자 * 10\n",
+        "print(\"총 평가금액:\", 총평가금액, \"원\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "시가총액 = 298000000000000\n",
+        "현재가 = 50000\n",
+        "PER = 15.79\n",
+        "\n",
+        "print(\"시가총액:\", type(시가총액))\n",
+        "print(\"현재가:\", type(현재가))\n",
+        "print(\"PER:\", type(PER))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H7RviRaLT5YE",
+        "outputId": "ee1ac098-2d21-49f9-df7c-ee1c3763ed6e"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "시가총액: <class 'int'>\n",
+            "현재가: <class 'int'>\n",
+            "PER: <class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s = \"hello\"\n",
+        "t = \"python\"\n",
+        "\n",
+        "print(s + \"! \" + t)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "onTfpI5DUIxT",
+        "outputId": "a1393e88-25f9-4013-e163-ba27de69a7ae"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello! python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "K3YEhzsHXtUz"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "F54TpAK_Xtnq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "2 + 2 * 3"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pEbVor-VUMEs",
+        "outputId": "9a5f8426-d8cc-43af-f2b0-24c00d1a937f"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "8"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    }
+  ]
+}
